@@ -13,42 +13,41 @@
     <h1>Mitt evenemang, olika lekar</h1>
 
     <p>Hej och välkommen till Loves evenemang. På evenemanget ska vi leka olika lekar för att lära känna varandra
-        bättre. Välkomme hit! Registrera dig nedan.
+        bättre. Välkommen hit! Registrera dig nedan.
     </p>
 
-    <!-- form -->
-
-    <form action="get">
-        <fieldset>
-            <legend>Anmäl dig här.</legend>
-            <p>
-                <input type="text" placeholder="Förnamn" required form="firstName" id="firstName">
-            </p>
-
-            <p>
-                <input type="text" form="lastName" id="lastName" placeholder="efternamn" required>
-            </p>
-
-            <p>
-                <input type="email" placeholder="Email" form="email" id="email" required>
-
-            <p>
-
-            </p>
-            <input type="color" placeholder="" id="favoriteColor" form="favoriteColor" aria-placeholder="favorit färg">
+    
+    <fieldset>
+        <legend>Registrera dig här.</legend>
+        <form action="get">
+            <input type="text" name="firstName" placeholder="förnamn" required>
+            <br>
+            <br>
+            <input type="text" name="lastName" placeholder="efternamn" required>
+            <br>
+            <br>
+            <input type="email" name="email" placeholder="email">
+            <br>
+            <br>
+            <input type="tel" placeholder="telefonnummer">
+            <br>
+            <br>
             favoritfärg
-            </p>
+            <input type="color" name="favoritecolor" required>
+            <br>
+            <br>
+            <textarea name="coverLetter" id="coverLetter" cols="30" rows="10" placeholder="berätta om några intressen du har"></textarea>
 
-            <textarea name="coverLetter" id="coverLetter" cols="30" rows="10"
-                placeholder="Skriv lite om dina intressen"></textarea> <br> <br> <br>
-
-            <input type="submit" form="send" id="send">
+            <button type="submit">skicka</button>
 
 
+        </form>
+    </fieldset>
 
-        </fieldset>
+<a href="Galleri.html"> Klicka här för att komma till mitt galleri!</a>
 
-    </form>
+
+  
 
 </body>
 
