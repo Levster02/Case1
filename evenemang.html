@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evenemang</title>
+    <title>Välkommen till mitt Evenemang</title>
 </head>
+
 <body>
-    
+
+
+    <h1>Mitt evenemang, olika lekar</h1>
+
+    <p>Hej och välkommen till Loves evenemang. På evenemanget ska vi leka olika lekar för att lära känna varandra
+        bättre. Välkomme hit! Registrera dig nedan.
+    </p>
+
+    <!-- form -->
+
+    <form action="get">
+        <fieldset>
+            <legend>Anmäl dig här.</legend>
+            <p>
+                <input type="text" placeholder="Förnamn" required form="firstName" id="firstName">
+            </p>
+
+            <p>
+                <input type="text" form="lastName" id="lastName" placeholder="efternamn" required>
+            </p>
+
+            <p>
+                <input type="email" placeholder="Email" form="email" id="email" required>
+
+            <p>
+
+            </p>
+            <input type="color" placeholder="" id="favoriteColor" form="favoriteColor" aria-placeholder="favorit färg">
+            favoritfärg
+            </p>
+
+            <textarea name="coverLetter" id="coverLetter" cols="30" rows="10"
+                placeholder="Skriv lite om dina intressen"></textarea> <br> <br> <br>
+
+            <input type="submit" form="send" id="send">
+
+
+
+        </fieldset>
+
+    </form>
+
 </body>
+
 </html>
