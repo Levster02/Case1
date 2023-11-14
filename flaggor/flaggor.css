@@ -1,0 +1,86 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.ireland
+{
+    width: 220px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    margin-bottom: 30px;
+
+}
+.left
+{
+    height: 150px;
+    width: 73.3333333333px;
+    background-color: orange ;
+}
+.middle
+{
+    height: 150px;
+    width: 73.3333333333px;
+    background-color: white;
+}
+.right
+{
+    background-color: green;
+    height: 150px;
+    width: 73.3333333333px;
+}
+.frankrike
+{
+    width: 220px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    margin-bottom: 30px;
+}
+.left2
+{
+    background-color: red;
+    height: 150px;
+    width: 73.3333333333px;
+}
+.middle2
+{
+    background-color: white;
+    height: 150px;
+    width: 73.3333333333px;
+}
+.right2
+{
+    background-color: blue;
+    height: 150px;
+    width: 73.3333333333px;
+}
+.spanien
+{
+    width: 220px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.top
+{
+    width: 220px ;
+    height: 50px;
+    background-color: red;
+}
+.middle3
+{
+    width: 220px ;
+    height: 50px;
+    background-color: yellow;
+}
+.bottom
+{
+    width: 220px ;
+    height: 50px;
+    background-color: red;
+}
